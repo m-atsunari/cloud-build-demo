@@ -20,4 +20,4 @@ def hello_http(request):
         name = request_args['name']
     else:
         name = 'World'
-    return 'Hello Bad {}!'.format(name)
+    return 'Hello Good {}!'.format(name)
